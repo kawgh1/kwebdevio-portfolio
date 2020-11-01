@@ -27,7 +27,7 @@ module.exports = {
                     },
 
                     {
-                        loader: 'saas-loader',
+                        loader: 'sass-loader',
                     },
                 ],
                 exclude: /node_modules/,
