@@ -55,31 +55,6 @@
       }
     }
 
-    // &__logo-container {
-    //   display: flex;
-    //   flex-direction: row;
-    //   justify-content: center;
-    //   align-items: center;
-    //   flex-wrap: wrap;
-    //   margin: auto 25%;
-
-    //   @include respond(tab-port) {
-    //     margin: auto 15%;
-    //   }
-    //   @include respond(tab-port-sm) {
-    //     margin: auto 5%;
-    //   }
-
-    //   @include respond(phone) {
-    //     margin: auto;
-    //   }
-
-      
-
-      
-      
-    // }
-
     &__info {
       display: flex;
       height: 100%;
