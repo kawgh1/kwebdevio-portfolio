@@ -4,7 +4,7 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "dev": "node server.js",
     "heroku-postbuild": "webpack -p"
   },
   "repository": {
