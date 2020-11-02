@@ -53,46 +53,48 @@
 
   // scrolling text
   .scroll {
-    height: 30px;	
+    height: 25px;	
     overflow: hidden;
     position: relative;
+    display: flex-start;
     }
     .scroll p {
    
     width: 100%;
     height: 100%;
     margin: 0;
-    line-height: 30px;
-    text-align: center;
     padding-left: 10px;
+    line-height: 25px;
+    display: flex;
+    text-align: left;
     /* Starting position */
     -moz-transform:translateY(100%);
     -webkit-transform:translateY(100%);	
     transform:translateY(100%);
     /* Apply animation to this element */	
-    -moz-animation: example1 25s linear infinite;
-    -webkit-animation: example1 25s linear infinite;
-    animation: example1 25s linear infinite;
+    -moz-animation: example1 7s linear infinite;
+    -webkit-animation: example1 7s linear infinite;
+    animation: example1 7s linear infinite;
     }
     /* Move it (define the animation) */
     @-moz-keyframes example1 {
-    0%   { -moz-transform: translateY(100%); }
-    100% { -moz-transform: translateY(-2300%); }
+    0%   { -moz-transform: translateY(0%); }
+    100% { -moz-transform: translateY(-790%); }
     }
     @-webkit-keyframes example1 {
-    0%   { -webkit-transform: translateY(100%); }
-    100% { -webkit-transform: translateY(-2300%); }
+    0%   { -webkit-transform: translateY(0%); }
+    100% { -webkit-transform: translateY(-790%); }
     }
     @keyframes example1 {
     0%   { 
-    -moz-transform: translateY(100%); /* Firefox bug fix */
-    -webkit-transform: translateY(100%); /* Firefox bug fix */
-    transform: translateY(100%); 		
+    -moz-transform: translateY(75%); /* Firefox bug fix */
+    -webkit-transform: translateY(75%); /* Firefox bug fix */
+    transform: translateY(75%); 		
     }
     100% { 
-    -moz-transform: translateY(-2300%); /* Firefox bug fix */
-    -webkit-transform: translateY(-2300%); /* Firefox bug fix */
-    transform: translateY(-2300%); 
+    -moz-transform: translateY(-790%); /* Firefox bug fix */
+    -webkit-transform: translateY(-790%); /* Firefox bug fix */
+    transform: translateY(-790%); 
     }
     }
 
@@ -144,6 +146,8 @@
       @include respond(tab-port-sm) {
         align-items: center;
       }
+
+    
 
       &-text {
 
