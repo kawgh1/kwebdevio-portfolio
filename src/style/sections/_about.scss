@@ -134,11 +134,11 @@
           /* Move it (define the animation) */
                     @-moz-keyframes example2 {
                       0%   { -moz-transform: translateY(0%); }
-                      100% { -moz-transform: translateY(-1200%); }
+                      100% { -moz-transform: translateY(-1500%); }
                       }
                   @-webkit-keyframes example2 {
                       0%   { -webkit-transform: translateY(0%); }
-                      100% { -webkit-transform: translateY(-1200%); }
+                      100% { -webkit-transform: translateY(-1500%); }
                       }
 
 
@@ -149,9 +149,9 @@
                     transform: translateY(75%); 		
                     }
                     100% { 
-                    -moz-transform: translateY(-1200%); /* Firefox bug fix */
-                    -webkit-transform: translateY(-1200%); /* Firefox bug fix */
-                    transform: translateY(-1200%); 
+                    -moz-transform: translateY(-1500%); /* Firefox bug fix */
+                    -webkit-transform: translateY(-1500%); /* Firefox bug fix */
+                    transform: translateY(-1500%); 
                     }
                   }
     
