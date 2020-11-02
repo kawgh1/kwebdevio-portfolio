@@ -47,13 +47,10 @@ a:hover {
     -webkit-text-fill-color: $secondary-color;
   }
 
+  
+
   &:hover {
     transform: translateX(2px);
   }
 
-  .logo {
-    height: "75px";
-    width: "75px";
-    margin: 10px;
-  }
 }

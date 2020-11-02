@@ -20,12 +20,43 @@
     clip-path: none;
   }
 
+  .hide-desktop {
+    display:none;
+
+    @include respond(phone){
+      display: block;
+      margin: 10px;
+      padding: 10px;
+      height: 100px;
+    }
+    
+  }
+
+  .hide-mobile {
+    display: block;
+    
+    @include respond(phone){
+      display:none;
+    }
+    
+  }
+
+  .text-color-fun {
+    background: #FF0000;
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
+    background: radial-gradient(circle farthest-corner at center center, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
   
   
 
   .about-wrapper {
     @include respond(phone) {
-      padding-bottom: 5rem;
+      padding-bottom: 1rem;
     }
 
     &__image {
@@ -33,18 +64,20 @@
       height: 100%;
       align-items: center;
       justify-content: center;
+      padding-bottom: 1rem;
 
       @include respond(tab-land) {
         height: 100%;
       }
       @include respond(tab-port-sm) {
-        padding-bottom: 6.4rem;
+        padding-bottom: 1rem;
       }
 
       &-logo {
         height: 75px;
         width: 75px;
-        margin: 10px;
+        margin: 0 10px 0;
+        
 
         
 
