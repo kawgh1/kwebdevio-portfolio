@@ -215,6 +215,13 @@
             </figure>
 
             <figure>
+              <img class="about-wrapper__image-logo" src="assets/logos/typescript.png" title="Typescript" />
+              <figcaption>
+                Typescript
+              </figcaption>
+            </figure>
+
+            <figure>
               <img class="about-wrapper__image-logo" src="assets/logos/vscode.png" title="VS Code" />
               <figcaption>
                 VS Code
@@ -247,6 +254,59 @@
         <h2 class="section-title dark-blue-text">
           Projects
         </h2>
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 hide-desktop">
+            <div class="project-wrapper__image">
+              <a href="https://timelines-project-mgmt-app.herokuapp.com/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid " src="./assets/project-logos/timelines.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Timelines - Project Management App</h3>
+              <div>
+                <p class="mb-4">
+                  A pure Spring Boot web application for project managers:
+
+                </p>
+                <ul>
+                  <li>Pure Java Spring Boot + Thymeleaf application</li>
+                  <li>Real-time graphs populated from backend SQL queries using graph.js</li>
+                  <li>Google Charts</li>
+                  <li>All table data is dynamically populated from a Postgres database</li>
+                  <li>Pagination and Sorting using JpaRepository</li>
+                  <li>Use of Data Transfer Objects (DTO)</li>
+                  <li>Basic CRUD operations</li>
+                </ul>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://timelines-project-mgmt-app.herokuapp.com/">
+                Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/kawgh1/project-mgmt-app-paging-and-sorting">
+                Source Code
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-sm-12 hide-mobile">
+            <div class="project-wrapper__image">
+              <a href="https://timelines-project-mgmt-app.herokuapp.com/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project-logos/timelines.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <!-- /END Project -->
 
         <!-- Each .row is a project -->
         <div class="row">
