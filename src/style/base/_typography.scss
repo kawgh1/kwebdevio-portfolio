@@ -52,5 +52,26 @@ a:hover {
   &:hover {
     transform: translateX(2px);
   }
+}
+
+  .text-color-second {
+    @include supportColorForIE11();
+
+    background-image: none;
+      -webkit-text-fill-color: $primary-color;
+    
+    // Responsive text purple style
+    @include respond(phone) {
+      background-image: none;
+      -webkit-text-fill-color: $primary-color;
+    }
+  
+    
+  
+    &:hover {
+      transform: translateX(2px);
+    }
 
 }
+
+
