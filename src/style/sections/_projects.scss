@@ -49,6 +49,7 @@
 
     &__text {
       text-align: left;
+      font-size: 1.1rem;
 
       @include respond(phone) {
         margin-bottom: 2.5rem !important;
